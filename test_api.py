@@ -62,3 +62,13 @@ def test_post_pokemon_calls_add_function_with_expected_args(mock_add, test_api, 
     assert mock_add.mock_calls[0].args[0] == test_pokemon # With the argument
 
     assert isinstance(data, dict)
+
+
+def test_post_pokemon_returns_400_if_props_missing(test_api):
+
+    res = test_api.post("/pokemon", json={})
+
+    data = res.json
+
+    assert res.status_code == 400
+    assert data["message"] == "Invalid pokemon data"
