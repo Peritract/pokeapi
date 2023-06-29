@@ -1,0 +1,32 @@
+[
+    {
+        "height": 40,
+        "id": 138,
+        "name": "Omanyte",
+        "weight": 7500
+    },
+    {
+        "height": 100,
+        "id": 139,
+        "name": "Omastar",
+        "weight": 35000
+    },
+    {
+        "height": 50,
+        "id": 140,
+        "name": "Kabuto",
+        "weight": 11500
+    },
+    {
+        "height": 130,
+        "id": 141,
+        "name": "Kabutops",
+        "weight": 40500
+    },
+    {
+        "height": 180,
+        "id": 142,
+        "name": "Aerodactyl",
+        "weight": 59000
+    }
+]
